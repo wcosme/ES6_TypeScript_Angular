@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-topo',
-  templateUrl: './topo.component.html',
-  styleUrls: ['./topo.component.css']
+    selector: 'app-topo',
+    templateUrl: './topo.component.html',
+    // template: `<p>
+    //         Este Ã© o componente topo
+    //          </p>`
+    // styles: ['.exemplo {color: red}']
+    styleUrls: ['./topo.component.css']
 })
-export class TopoComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class TopoComponent {
+    public titulo:string = 'Aprendendo Inglês';
+ }
